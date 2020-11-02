@@ -1,0 +1,14 @@
+.BtnOUI{
+    border-radius: 10px;
+    display: inline-flex;
+    padding-left: 60px;
+    padding-top: 5px;
+    margin-left: 40%;
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+    background-color: greenyellow;
+    border: none;
+    text-decoration: none;
+
+}
