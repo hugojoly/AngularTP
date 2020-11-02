@@ -14,7 +14,7 @@ export class SwitchComponent{
   }
 
   updateButton(){
-    if (this.switchUpdate = "oui") {
+    if (this.switchUpdate == "oui") {
       this.switchColor = "gray";
       console.log("1");
       this.switchUpdate = "non";

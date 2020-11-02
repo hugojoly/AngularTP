@@ -1,5 +1,7 @@
 <div>
-    <button (click)="updateButton()" class="BtnOUI"
-    [ngStyle]="{'background-color': switchColor}"
-    [ngStyle]="{'padding-left': switchPadding}">{{ switchUpdate }}</button>
+    <button (click)="updateButton()" class="BtnSwitch"
+    [ngStyle]="{
+        'background-color': switchColor,
+        'padding-left': switchPadding,
+    }">{{ switchUpdate}}</button>
 </div>
