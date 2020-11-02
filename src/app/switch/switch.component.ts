@@ -8,10 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SwitchComponent{
   switchColor: string = "greenyellow";
   switchUpdate: string = "oui";
-  switchPadding: string = "60px";
-
+  switchPadding: string = "60px"
   constructor() {
-  }
+   }
 
   updateButton(){
     if (this.switchUpdate == "oui") {
